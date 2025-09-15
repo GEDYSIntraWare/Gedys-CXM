@@ -1,0 +1,15 @@
+﻿{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.Localization.schema.json",
+    "name.short": "Gedys CXM",
+    "name.full": "Gedys Intraware GmbH",
+    "description.short": "Addressen suchen und Benachrichtigungen von CXM erhalten",
+    "description.full": "Teams Bot, der sich in Gedys CXM integriert, um nach Adressen zu suchen und sie als adaptive Karten zu senden sowie Benachrichtigungen von Gedys CXM zu erhalten.",
+    "composeExtensions[0].commands[0].title": "Adressen suchen",
+    "composeExtensions[0].commands[0].description": "Nach CXM Adressen suchen",
+    "composeExtensions[0].commands[0].parameters[0].title": "Suchanfrage",
+    "composeExtensions[0].commands[0].parameters[0].description": "Suchbegriff eingeben",
+    "bots[0].commandLists[0].commands[0].title": "info",
+    "bots[0].commandLists[0].commands[0].description": "Informationen über den Bot und seine Funktionen anzeigen",
+    "bots[0].commandLists[0].commands[1].title": "help",
+    "bots[0].commandLists[0].commands[1].description": "Hilfe und verfügbare Befehle anzeigen"
+}

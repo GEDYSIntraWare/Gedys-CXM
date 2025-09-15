@@ -1,0 +1,111 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.12/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.12",
+    "version": "1.0.2",
+    "localizationInfo": {
+        "defaultLanguageTag": "en",
+        "additionalLanguages": [
+            {
+                "languageTag": "de",
+                "file": "de.json"
+            }
+        ]
+    },
+    "id": "MicrosoftAppID",
+    "developer": {
+        "name": "Gedys Intraware GmbH",
+        "websiteUrl": "https://www.gedys.com",
+        "privacyUrl": "https://gedys.com/de/datenschutz",
+        "termsOfUseUrl": "https://gedys.com/de/impressum"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Gedys CXM",
+        "full": "Gedys Intraware GmbH"
+    },
+    "description": {
+        "short": "Search addresses and get notifications from CXM",
+        "full": "Teams bot that integrates with Gedys CXM to search for addresses and send them as adaptive cards and get notifications from Gedys CXM."
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        {
+            "botId": "MicrosoftAppID",
+            "scopes": [
+                "personal",
+                "team",
+                "groupChat"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false,
+            "supportsCalling": false,
+            "supportsVideo": false,
+            "commandLists": [
+                {
+                    "scopes": [
+                        "personal",
+                        "team",
+                        "groupChat"
+                    ],
+                    "commands": [
+                        {
+                            "title": "info",
+                            "description": "Display information about the bot and its features"
+                        },
+                        {
+                            "title": "help",
+                            "description": "Display help and available commands"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "composeExtensions": [
+        {
+            "botId": "MicrosoftAppID",
+            "commands": [
+                {
+                    "id": "searchCxmContacts",
+                    "context": [
+                        "compose",
+                        "commandBox"
+                    ],
+                    "description": "Search for CXM addresses",
+                    "title": "Search Addresses",
+                    "type": "query",
+                    "parameters": [
+                        {
+                            "name": "searchQuery",
+                            "title": "Search Query",
+                            "description": "Enter a search term",
+                            "inputType": "text"
+                        }
+                    ]
+                }
+            ],
+            "messageHandlers": [
+                {
+                    "type": "link",
+                    "value": {
+                        "domains": [
+                            "*.intraware.de"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "*.intraware.de",
+        "*.botframework.com",
+        "*.azurewebsites.net"
+    ]
+}
