@@ -6,7 +6,7 @@ Wichig! Achten Sie darauf, dass Sie sich die passende Manifest Version zu Ihrer 
 Erstellung der Zip Datei:
 1. In manifest.json alle "MicrosoftAppID" Einträge, durch die ID der Entra App Registrierung für den Bot ersetzen.
 
-2. In manifest.json alle "Domain" Einträge, durch die öffentlich erreichbare URL zur CXM Instanz ersetzen. (www.example.com/cxm)
+2. In manifest.json alle "CXMURL" Einträge, durch die öffentlich erreichbare URL zur CXM Instanz ersetzen. (www.example.com/cxm)
 
 3. color.png, de.json, manifest.json und outline.png zusammen ohne Ordner in eine Zip datei packen.
 
