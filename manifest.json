@@ -28,7 +28,7 @@
     },
     "description": {
         "short": "Search records and get notifications from CXM",
-        "full": "Teams bot that integrates with Gedys CXM to search for records and send them as adaptive cards and get notifications from Gedys CXM."
+        "full": "Microsoft Teams app, which integrates with Gedys CXM to search for records and send them as adaptive cards, as well as to receive notifications from Gedys CXM."
     },
     "accentColor": "#FFFFFF",
     "bots": [
