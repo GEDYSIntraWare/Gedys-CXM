@@ -93,7 +93,7 @@
                     "type": "link",
                     "value": {
                         "domains": [
-                            "*.intraware.de"
+                            "CXMURL"
                         ]
                     }
                 }
@@ -105,6 +105,6 @@
         "messageTeamMembers"
     ],
     "validDomains": [
-        "*.intraware.de"
+        "CXMURL"
     ]
 }
