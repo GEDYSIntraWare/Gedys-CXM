@@ -3,7 +3,7 @@
     "name.short": "Gedys CXM",
     "name.full": "Gedys Intraware GmbH",
     "description.short": "Datensätze suchen und Benachrichtigungen von CXM erhalten",
-    "description.full": "Teams Bot, der sich in Gedys CXM integriert, um nach Datensätzen zu suchen und sie als adaptive Karten zu senden sowie Benachrichtigungen von Gedys CXM zu erhalten.",
+    "description.full": "Microsoft Teams App, die sich in Gedys CXM integriert, um nach Datensätzen zu suchen und sie als adaptive Karten zu senden sowie Benachrichtigungen von Gedys CXM zu erhalten.",
     "composeExtensions[0].commands[0].title": "Datensätze suchen",
     "composeExtensions[0].commands[0].description": "Nach CXM Datensätzen suchen",
     "composeExtensions[0].commands[0].parameters[0].title": "Suchanfrage",
